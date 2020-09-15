@@ -1,0 +1,185 @@
+html{
+	scroll-behavior: smooth;
+}
+
+.navbar-brand {
+	font-family: Viga;
+	font-size: 32px;
+}
+
+.navbar-brand span{
+	color: #0C8FA4;
+}
+
+.nav-link{
+	text-transform: uppercase;
+	color: #000000 !important;
+	margin-right: 30px;
+}
+
+.nav-link:hover::after{
+	content: '';
+	display: block;
+	border-bottom: 3px solid #0C8FA4;
+	width: 70%;
+	margin: auto;
+	padding-bottom: 3px;
+	margin-bottom: -8px;
+}
+
+.btn{
+	text-transform: uppercase;
+	color: #ffffff;
+	background-color: #0C8FA4;
+	border-radius: 40px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+.form-control{
+	position: relative;
+	vertical-align: middle;
+	white-space: nowrap;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-style: none;
+}
+
+.form{
+	margin-top: 30px;
+}
+
+#username {
+	border-bottom: 1px solid #B2B2B2;
+}
+
+.icon{
+	position: absolute;
+	top: 50%;
+	margin-left: 5px;
+	margin-top: 5px;
+	z-index: 1;
+}
+
+.btn2{
+	color: #ffffff;
+	background-color: #0C8FA4;
+	border-radius: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 45%;
+	padding-left: 45%;
+}
+
+h1{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+p{
+	font-size: 18px;
+	margin-top: 15px;
+	color: #B2B2B2;
+}
+
+h5{
+	color: #0C8FA4;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	margin-left: 75%;
+}
+
+.gambar{
+	margin-left: 20%;
+	height: 419px;
+	width: 516px;
+}
+
+.wave{
+	width: 100%;
+	height: 80px;
+}
+
+.form-control::-webkit-input-placeholder {
+	color: #B2B2B2;
+}
+
+.form-control::-moz-input-placeholder {
+	color: #B2B2B2;
+}
+
+.form-control::-ms-input-placeholder {
+	color: #B2B2B2;
+}
+
+
+
+.judul span{
+	color: #0C8FA4;
+}
+
+.pesan{
+	margin-top: 100px;
+}
+
+.pesan2{
+	margin-top: 120px;
+}
+
+.testi h2{
+	margin-top: 80px;
+	font-size: 30px;
+	font-style: italic;
+	color: #B2B2B2;
+}
+
+h3 {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+h4 {
+	font-size: 20px;
+	color: #B2B2B2;
+}
+
+.footer{
+	margin-top: 50px;
+	background-color: #0C8FA4;
+	width: 100%;
+	height: 320px;
+}
+
+.footer .kontak{
+	margin-top: 50px;
+	margin-left: 30%;
+	color: #ffffff;
+}
+
+.footer .kontak p {
+	color: #ffffff;
+}
+
+.footer .sosmed {
+	color: #ffffff;
+	margin-top: 50px;
+	margin-right: 30%;
+}
+
+.footer .sosmed a{
+	color: #ffffff;
+}
+
+.footer .kredit h2{
+	font-size: 15px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	color: #ffffff;
+	text-align: center;
+}
+
+.garis{
+	color: #ffffff;
+}
